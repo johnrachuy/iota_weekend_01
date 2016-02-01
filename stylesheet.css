@@ -1,0 +1,96 @@
+body {
+	background-color: #fff5e5;
+	font-family: "Open Sans", Sans-Serif;
+}
+
+.container {
+	padding: 20px;
+	background-color: #fff5e5;
+}
+
+.grid200 {
+	width: 200px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.grid100 {
+	width: 100px;
+	padding: 5px;
+	display: inline-block;
+}
+
+#empInfo {
+	text-align: center;
+}
+
+#empInfo:nth-child(odd) {
+	background-color: #ff9600;
+}
+
+#empInfo:nth-child(even) {
+	background-color: #ffcb80;
+}
+
+h2 {
+	text-align: center;
+}
+
+#removeEmp:focus {
+	outline: 0;
+}
+
+form.cleanForm {
+width:700px;
+margin:0 auto;
+}
+
+form.cleanForm p {
+margin-bottom:15px;
+}
+
+input[type="text"] {
+font-family: "Open Sans", Sans-Serif;
+font-size: 18px;
+color: black;
+padding: 10px;
+outline:none;   
+float:left;
+border: solid 1px #adadad;
+width: 230px;
+clear: right;
+}
+
+form.cleanForm em {
+font-size:12px;
+}
+
+.column {
+ width:250px;
+ float:left;
+ margin-right:20px;
+ padding: 10px;   
+}
+
+.last {
+ margin:0;
+ padding: 10px;   
+}
+
+input[type="submit"] {
+	width: 250px;
+	font-size: 18px;
+}
+
+/*input:active[type="submit"] {
+	background-color: #ffcb80;
+}*/
+
+input:focus[type="submit"] {
+	outline: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
