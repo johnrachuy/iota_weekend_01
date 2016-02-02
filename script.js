@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	var empArray = [];
 	
-	function appendDom (empArray) {
+	function appendDom(empArray) {
 		var insertemployeeList = $("<div id='employeeList'></div>")
 		$('#employeeList').remove();
 		$('body').append(insertemployeeList);
@@ -32,7 +32,7 @@ $(document).ready(function(){
 		empArray.push(values);
 		appendDom(empArray);
 	
-		$( '#employeeForm').each(function(){
+		$('#employeeForm').each(function(){
     	this.reset();
     });
 	});
